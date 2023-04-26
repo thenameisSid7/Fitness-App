@@ -25,3 +25,6 @@ Go to project root and execute the following command in console to get the requi
 ```bash
 flutter pub get 
 ```
+
+## Video demo
+[Click Here](https://www.loom.com/share/76be17947a0540bf959a039f33e41d1c)
