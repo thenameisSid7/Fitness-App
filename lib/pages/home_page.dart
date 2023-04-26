@@ -86,15 +86,27 @@ class _HomePageState extends State<HomePage> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   TextField(
+                    decoration: const InputDecoration(
+                      hintText: 'Name'
+                    ),
                     controller: newExerciseNameController,
                   ),
                   TextField(
+                    decoration: const InputDecoration(
+                      hintText: 'Sets'
+                    ),
                     controller: newExerciseSetsController,
                   ),
                   TextField(
+                    decoration: const InputDecoration(
+                      hintText: 'Weight'
+                    ),
                     controller: newExerciseWeightController,
                   ),
                   TextField(
+                    decoration: const InputDecoration(
+                      hintText: 'Reps'
+                    ),
                     controller: newExerciseRepsController,
                   ),
                 ],
@@ -136,7 +148,7 @@ class _HomePageState extends State<HomePage> {
         builder: (context) => AlertDialog(
               title: const Text('Edit Workout'),
               content: TextField(
-                controller: TextEditingController(text: currentWorkoutName),
+                controller: newWorkoutNameController..text=currentWorkoutName,
               ),
               actions: [
                 MaterialButton(
