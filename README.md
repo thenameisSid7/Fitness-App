@@ -1,16 +1,27 @@
-# fitness_app
+# Fitness App
+This app keeps track of your exercises for different workouts, each excercise contains data of weights used, no of sets and repetitions of each sets.
 
-A new Flutter project.
 
-## Getting Started
+# Images
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/123198852/234648680-920df247-a490-4997-a66b-24a1df23f997.png" width="240" alt="App-Preface-Image1">
+    <img src="https://user-images.githubusercontent.com/123198852/234648694-ca663d82-21c7-4cfd-a346-0f59d0580b81.png" width="240" alt="App-Preface-Image2">
+    <img src="https://user-images.githubusercontent.com/123198852/234648720-df7b2949-6cef-49f5-998c-e461d04176fe.png" width="240" alt="Card-Folding-Gif">
+    <img src="https://user-images.githubusercontent.com/123198852/234648739-b6ecc1e0-0e20-4fc8-8f97-6d3e9b954053.png" width="240" alt="Card-Folding-Gif">
+</p>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## How to setup?
+Step 1:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Download or clone this repo by using the link below:
+```bash
+https://github.com/thenameisSid7/Fitness-App.git
+```
+Step 2:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Go to project root and execute the following command in console to get the required dependencies:
+
+```bash
+flutter pub get 
+```
